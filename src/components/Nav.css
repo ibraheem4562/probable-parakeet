@@ -1,0 +1,58 @@
+.nav_bar{
+	display: flex;
+	width: 100%;
+	justify-content: auto;
+}
+.main_menu{
+	width: 100%;
+	font: 20px Arial, serif;
+}
+.main_menu ul{
+	list-style: none;
+}
+.main_menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.logo{
+	float: left;
+	width: 100px;
+	height: 50px;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+.main_menu .menu_right_item{
+	float: right;
+}
+.main_menu .menu_left{
+	float: left;
+	z-index: 1;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.burger{
+	position: absolute;
+	display: none;
+	top: 20px;
+	right: 20px;
+	color: white;
+}
+.clearfix{
+	clear: both;
+}
+
+@media screen and (max-width: 800px)
+{
+	
+	.menu_right{
+		display: none;
+	}
+	.burger{
+		display: inline-block;
+	}
+}
